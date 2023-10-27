@@ -9,5 +9,7 @@ class SingleInherit {
 }
 
 class Demo extends SingleInherit {
-
+    void print() {
+        System.out.println("welcome");
+    }
 }
