@@ -1,4 +1,4 @@
-class SingleInherit {
+class SuperClass {
     int a = 30;
     int b = 40;
 
@@ -8,8 +8,12 @@ class SingleInherit {
     }
 }
 
-class Demo extends SingleInherit {
-    void print() {
-        System.out.println("welcome");
+class SubClass extends SuperClass {
+
+}
+
+class SingleInheritance {
+    public static void main(String args[]) {
+
     }
 }
